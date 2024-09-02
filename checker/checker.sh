@@ -12,6 +12,7 @@ elif [[ $2 == "--ck" ]]; then
 	leaks -atExit -- ./a.out $1
 	echo
 elif [[ $2 == "--cl" ]]; then
+	clang-format -i $1
 	clang-format -n $1
 	cppcheck --enable=all --suppress=missingIncludeSystem $1
 	gcc -std=c11 -Wall -Werror -Wextra $1
