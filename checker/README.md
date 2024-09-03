@@ -14,5 +14,7 @@ To check a program for memory leaks:
 
 			--[ lk ] Shortened display in case of leaks.
 
-You can take more info if run script with --[ help ] option.
+You can take more info if run script with:
+
+			--[ help ] option.
 	
