@@ -3,15 +3,16 @@ Before use, transfer to the directory of the desired file!
 
 General command formula:
 	
-	sh checker.sh <file_name> --[ i or n for clang][ c for cppcheck][ g or gf use flag or no]
+	sh checker.sh <file_name> --[ option ]
 
-		OR
+		Before the option, enter the name of the file in *.c format.
 
-	sh checker.sh <file_name> -[ a ] full scan and compile
+			--[ ck ] For check others.
+			--[ cl ] For check and compile myself.
 
 To check a program for memory leaks:
 
-	sh checker.sh <file_name> --[ l ]
+			--[ lk ] Shortened display in case of leaks.
 
 You can take more info if run script with --[ help ] option.
 	
