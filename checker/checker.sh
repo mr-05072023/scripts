@@ -1,5 +1,6 @@
 #!/bin/bash
 
+cp ../materials/linters/.clang-format ../src
 if [[ $1 == "--help" ]]; then
 	echo "\n\tBefore the option, enter the name of the file in *.c format.\n"
 	echo "\t--[ ck ] For check others."
